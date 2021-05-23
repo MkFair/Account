@@ -1,0 +1,20 @@
+{% extends "template.html" %}
+{% block page %}
+    <div class="three columns">
+        <img src="{{url_for('static',filename='img/default.png')}}" class="profile_avatar">
+    </div>
+    <div class="nine columns">
+        <div>
+            <small>Имя Фамилия</small>
+            <p>Иван Иванов</p>
+        </div>
+        <div>
+            <small>Телефон</small>
+            <p>+79000000000</p>
+        </div>
+        <div>
+            <small>Возраст</small>
+            <p>23 год(а)</p>
+        </div>
+    </div>
+{% endblock %}
